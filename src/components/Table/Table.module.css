@@ -1,0 +1,35 @@
+.filesTable {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px 0;
+  font-weight: normal;
+}
+
+.tableHeader {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+
+.tableRow {
+  border-bottom: 1px solid #ccc;
+}
+
+.tableRow:hover {
+  background-color: #eee;
+}
+
+.tableRow.selected {
+  background-color: #cdcdcd;
+}
+
+.fileStatus {
+  text-transform: capitalize;
+}

@@ -1,6 +1,6 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import styles from "./DownloadableFileTable.module.css";
-import { GrDownload, GrStatusGoodSmall } from "react-icons/gr";
+import { GrDownload } from "react-icons/gr";
 import Table from "../Table/Table";
 import TriStateCheckbox from "../TriStateCheckbox/TriStateCheckbox";
 
